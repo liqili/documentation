@@ -9,6 +9,7 @@ Odoo version 18.0
 
 - Searching by name is now implemented as `_search_display_name` like all other fields.
   See `#174967 <https://github.com/odoo/odoo/pull/174967>`_.
+- Translations are made available from the `Environment` with `#174844 <https://github.com/odoo/odoo/pull/174844>`_.
 
 
 Odoo Online version 17.4
