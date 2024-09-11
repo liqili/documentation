@@ -9,7 +9,9 @@ Odoo version 18.0
 
 - Searching by name is now implemented as `_search_display_name` like all other fields.
   See `#174967 <https://github.com/odoo/odoo/pull/174967>`_.
-
+- Method :meth:`~odoo.api.Environment.ref` now accepts a variadic sequence of arguments `xml_ids`,
+  and argument `raise_if_not_found` now is a keyword-only argument, so its name must be specified
+  on every call that uses it. See `#179692 <https://github.com/odoo/odoo/pull/179692>`_.
 
 Odoo Online version 17.4
 ========================
