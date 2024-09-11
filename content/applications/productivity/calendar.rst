@@ -11,40 +11,40 @@ Calendar
    calendar/outlook
    calendar/google
 
-Odoo Calendar is a scheduling app that allows users to integrate a company’s business flow into a
-single management platform. By integrating with the other apps in Odoo’s ecosystem, Calendar allows
-users to schedule meetings, organize meetings, schedule events, plan employee appraisals,
+Odoo **Calendar** is a scheduling app that allows users to integrate a company’s business flow into a
+single management platform. By integrating with the other apps in Odoo’s ecosystem, **Calendar** allows
+users to schedule and organize meetings, schedule events, plan employee appraisals,
 coordinate projects, and more – all from the same platform.
 
-In the **Calendar** app, users have an overview of their current meetings. The selected view option
-will appear as a :guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` button.
-Under the view options, users can also enable or disable :guilabel:`Show weekends`.
+Upon opening the :menuselection:`Calendar app`, users have an overview of their current meetings. The selected view option
+appears as a :guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` button.
+Under the view options drop-down menu, users can also enable or disable :guilabel:`Show weekends`.
 
 .. image:: calendar/calendar-overview.png
    :align: center
    :alt: Overview of Calendar app.
 
 .. tip::
-   Depending on the selected view option, users can use the arrow buttons to switch between days,
-   weeks, etc., then switch back to the current day with the :guilabel:`Today` button.
+   Depending on the selected view option, users can click the adjacent arrow buttons to switch between days,
+   weeks, etc., and switch back to the current day with the :guilabel:`Today` button.
 
 Sync third-party calendars
 --------------------------
 
 Users can sync Odoo with existing :doc:`Outlook <calendar/outlook>` and/or :doc:`Google
-<calendar/google>` calendars by heading to :menuselection:`Calendar --> Configuration --> Settings`.
-Events created in synced calendars will automatically appear across the integrated platforms.
+<calendar/google>` calendars, by heading to :menuselection:`Calendar app --> Configuration --> Settings`.
+Events created in synced calendars automatically appear across the integrated platforms.
 
-Create Calendar activities from chatter
+Create activities from chatter
 ---------------------------------------
 
 Instantly create new meetings anywhere in Odoo through an individual record’s chatter, like
-in a CRM opportunity card or Project Task.
+in a **CRM** opportunity card or task in the **Projects** app.
 
-From chatter, click on the :guilabel:`Activities` button. In the new :guilabel:`Schedule Activity`
-window, select :guilabel:`Activity Type`, which will populate a set of smart buttons depending on
-the activity. Activities that would involve other attendees' schedules like :guilabel:`Meeting` or
-:guilabel:`Call for Demo` will link to the **Calendar** app.
+From the chatter, click on the :guilabel:`Activities` button. In the new :guilabel:`Schedule Activity` pop-up
+window, select the desired :guilabel:`Activity Type`, which populates a set of buttons, depending on
+the activity. Activities that involve other schedules, like :guilabel:`Meeting` or
+:guilabel:`Call for Demo`, link to the **Calendar** app.
 
 .. image:: calendar/calendar-chatter-activity-type-call-for-demo.png
    :align: center
@@ -53,47 +53,47 @@ the activity. Activities that would involve other attendees' schedules like :gui
 Plan an event
 -------------
 
-To put an event on the calendar, click into the target date. Under **New Event** in the new window,
-add the event title.
+To put an event on the calendar, open the :menuselection:`Calendar app`, and click into the target date. On the
+:guilabel:`New Event` pop-up window that appears,
+start by adding the event title.
 
 .. image:: calendar/calendar-schedule-event.png
    :align: center
    :alt: Schedule an event window on Calendar app.
 
-The target date auto-populates in the :guilabel:`Start` section. This can be changed by clicking
-into the date section and selecting a date from the calendar. For multi-day events, select the end
-date, then click the :guilabel:`Apply` button.
+The target date auto-populates in the :guilabel:`Start` field. This can be changed by clicking
+into the date section, and selecting a date from the calendar. For multi-day events, select the end
+date in the second field, then click :guilabel:`Apply`.
 
-The :guilabel:`All Day` checkbox is ticked by default. For events with specific start and stop times
-, untick the box to enable time selection, which will automatically populate in the
+Tick the :guilabel:`All Day` checkbox if there is no specific start or end times. 
+
+For events with specific start and stop times, untick that checkbox to enable time selection, which automatically populates in the
 :guilabel:`Start` section.
 
-The signed-in user will auto-populate as the first attendee. Additional attendees can be added from
-existing contacts or created from the event page.
+The signed-in user auto-populates as the first attendee. Additional attendees can be added or created from here, as well.
 
-For virtual meetings, copy and paste the URL into the space provided or select :guilabel:`+Odoo
-meeting` to create a link. Once the event is created, users can click into the virtual meeting
-directly from the calendar event.
+For virtual meetings, copy and paste the URL into the space provided in the :guilabel:`Videocall URL` field. Or, click :guilabel:`+ Odoo meeting` to create a link. 
 
-Click :guilabel:`More Options` to navigate to the meeting page, which has additional configurations
+Once the event is created, users can click into the virtual meeting directly from the calendar event.
+
+Click :guilabel:`More Options` to navigate to the meeting page, which provides additional configurations
 for the event:
 
-- :guilabel:`Tags`: Add tags like *Customer Meeting* or *Internal Meeting*. These can be searched
-  and filtered in the Calendar app when organizing multiple events.
+- :guilabel:`Tags`: Add tags to the event, like `Customer Meeting` or `Internal Meeting`. These can be searched
+  and filtered in the **Calendar** app when organizing multiple events.
 - :guilabel:`Appointment`: Link existing or new appointments that can be configured in
   :guilabel:`Share Availabilities`.
 - :guilabel:`Privacy`: Toggle between visibility options to control who can view the event.
-- :guilabel:`Organizer`: This is defaulted to the current Odoo user. Select a new Organizer from
+- :guilabel:`Organizer`: This is defaulted to the current Odoo user. Select a new one from
   existing contacts or create and edit a new contact.
-- :guilabel:`Reminders`: Select notification options to sent to attendees. Choose a default
-  notification or configure new reminders.
+- :guilabel:`Reminders`: Select notification options to send to attendees. Choose a default
+  notification, or configure new reminders.
 
 Coordinate with teams
 ---------------------
 
-When scheduling an event for multiple users, tick the checkbox next to :guilabel:`Attendees` to
-view team members' availability. Tick the checkbox next to users to show or hide individual
-calendars.
+When scheduling an event for multiple users, on the **Calendar** app dashboard (the :guilabel:`Meetings` page),
+tick the checkbox next to :guilabel:`Attendees` to view team members' availability. Tick (or untick) the checkbox next to listed users to show (or hide) individual calendars.
 
 .. image:: calendar/calendar-attendees.png
    :align: center
@@ -102,8 +102,8 @@ calendars.
 Share Availabilities
 --------------------
 
-Click the :guilabel:`Share Availabilities` box to share external meeting invitations. On the
-calendar, select the target time and date to add them as options in the invitation. Once
+On the :menuselection:`Calendar app` main dashboard, click the :guilabel:`Share Availabilities` button at the top of the page to share external meeting invitations. On the
+calendar, select the available times and dates to add them as options in the invitation. Once
 availability has been selected, click the :guilabel:`Open` button to navigate to the associated
 meeting.
 
@@ -111,37 +111,36 @@ meeting.
    :align: center
    :alt: Share availability window on Calendar app.
 
-On the meeting page, users have several configuration options:
+On the meeting form, users have several configuration options:
 
-Under :guilabel:`Scheduling`, select a minimum hour window to ensure that appointments are
+In the :guilabel:`Scheduling` field, select a minimum hour window to ensure appointments are
 confirmed a specified amount of time in advance. For example, select :guilabel:`01:00` to require
 attendees to confirm at least one hour before their appointment time.
 
-Under :guilabel:`Allow Cancelling` select a minimum hour window required before the appointment if
+In the :guilabel:`Allow Cancelling` field, select a minimum hour window before the appointment if
 attendees need to make a cancellation.
 
-Select *Users* or *Resources* under the :guilabel:`Availability on` section to allow invitees
-to select internal users to meet or supplies like tables to reserve for their meeting.
+Select :guilabel:`Users` or :guilabel:`Resources` in the :guilabel:`Availability on` field to allow invitees
+to select specific users or resources to reserve for their meeting.
 
-The :guilabel:`Availability on` section enables attendees to book *Users* or *Resources* such as
-meeting rooms or tables for their appointment. Select *Users* or *Resources*, then type in the
+The :guilabel:`Availability on` field enables attendees to book :guilabel:`Users` or :guilabel:`Resources`, such as
+meeting rooms or tables. After selecting :guilabel:`Users` or :guilabel:`Resources`, then type in the desired
 contact or resource in the space below.
 
-The :guilabel:`Front-End Display` option is used to show *User* or *Resource* photos on
+The :guilabel:`Front-End Display` field is used to choose :guilabel:`No Picture` or :guilabel:`Show Pictures` related to the selected user or resource on
 the appointment page.
 
-If *Resources* has been selected, users have an option to :guilabel:`Manage Capacities`. Tick the
-checkbox to limit the maximum amount of people that can use the resource at the same time.
+If :guilabel:`Resources` has been selected in the :guilabel:`Availability on` field, users have an option to :guilabel:`Manage Capacities`. 
 
-The :guilabel:`Assign Method` section enables the order in which attendees book their time and
+Tick the checkbox to limit the maximum amount of people that can use the resource at the same time.
+
+The :guilabel:`Assignment Method` field enables the order in which attendees book their time and
 User/Resource:
 
-- *Pick User/Resource then Time*
-
-- *Select Time then User/Resource*
-
-- If *Resources* has been selected under the :guilabel:`Availability On` section, there
-  will be a third option: *Select Time then auto-assign*.
+- :guilabel:`Pick User/Resource then Time`
+- :guilabel:`Select Time then User/Resource`
+- If :guilabel:`Resources` has been selected in the :guilabel:`Availability On` field, a third option is available, 
+  :guilabel:`Select Time then auto-assign`.
 
 Schedule
 ~~~~~~~~
@@ -197,19 +196,19 @@ The :guilabel:`Options` tab provides additional configurations:
 Questions
 ~~~~~~~~~
 
-In the questions tab, add questions for the invitee to answer when confirming their meeting.
+In the :guilabel:`Questions` tab, add questions for the invitee to answer when confirming their meeting.
 Questions can be configured for question type, placeholder answers, and whether they are required.
 
 Messages
 ~~~~~~~~
 
-In the :guilabel:`Introduction Message` section, add additional meeting information that will appear
+In the :guilabel:`Introduction Message` field of the :guilabel:`Messages` tab, add additional meeting information that appears
 on the invitation.
 
-Information added to the :guilabel:`Extra Message on Confirmation` section will appear once the
+Information added to the :guilabel:`Extra Message on Confirmation` field appears once the
 meeting is confirmed.
 
-Click the :guilabel:`Preview` button to see how the appointment link will look for attendees.
+Click the :guilabel:`Preview` button to see how the appointment link looks for attendees.
 
-Once the configuration is finished, select :guilabel:`Share` to generate a link to send directly, or
+Once the configurations are finished, click the :guilabel:`Share` button to generate a link to send directly, or click
 :guilabel:`Publish` to publish the appointment selection on the connected Odoo website.
