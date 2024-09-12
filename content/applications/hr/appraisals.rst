@@ -173,11 +173,11 @@ document.
 .. seealso::
    - :doc:`appraisals/new_appraisals`
    - :doc:`appraisals/goals`
-   - :doc:`appraisals/reporting`
+   - :doc:`appraisals/skills_evolution`
 
 .. toctree::
    :titlesonly:
 
    appraisals/new_appraisals
    appraisals/goals
-   appraisals/reporting
+   appraisals/skills_evolution
