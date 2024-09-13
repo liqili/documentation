@@ -1,7 +1,7 @@
 # Odoo documentation
 
 ## Build the documentation locally
-
+reference: content/administration/on_premise/source.rst
 ### Requirements
 
 - Git
